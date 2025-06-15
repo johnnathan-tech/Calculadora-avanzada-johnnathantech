@@ -1,6 +1,4 @@
-# Calculadora-basica-johnnathantech
-
-# 🧮 Calculadora Básica - LocalHost
+# 🧮 Calculadora Básica johnnathantech
 
 ![Calculadora Preview](assets/calculator-preview.png) *Interfaz limpia y funcional*
 
@@ -21,4 +19,4 @@ Una calculadora web minimalista con operaciones básicas, desarrollada con tecno
 ## 🚀 Cómo Usar
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/tuusuario/calculadora-basica.git
+git clone https://github.com/jonathan-tech/calculadora-basica.git
