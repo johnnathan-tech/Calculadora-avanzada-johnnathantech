@@ -1,6 +1,6 @@
 # 🧮 Calculadora Básica johnnathan-tech
 
-![Calculadora Preview](assets/calculator-preview.png) *Interfaz limpia y funcional*
+![Calculadora Preview](https://photos.app.goo.gl/aSCG4jLJLaXVjUah8) *Interfaz limpia y funcional*
 
 Una calculadora web minimalista con operaciones básicas, desarrollada con tecnologías frontend puras.
 
