@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Elegante</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#764ba2">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <div class="buttons">
+            <button class="btn operator" onclick="appendToDisplay('7')">7</button>
+            <button class="btn operator" onclick="appendToDisplay('8')">8</button>
+            <button class="btn operator" onclick="appendToDisplay('9')">9</button>
+            <button class="btn operation" onclick="appendToDisplay('/')">/</button>
+
+            <button class="btn operator" onclick="appendToDisplay('4')">4</button>
+            <button class="btn operator" onclick="appendToDisplay('5')">5</button>
+            <button class="btn operator" onclick="appendToDisplay('6')">6</button>
+            <button class="btn operation" onclick="appendToDisplay('*')">×</button>
+
+            <button class="btn operator" onclick="appendToDisplay('1')">1</button>
+            <button class="btn operator" onclick="appendToDisplay('2')">2</button>
+            <button class="btn operator" onclick="appendToDisplay('3')">3</button>
+            <button class="btn operation" onclick="appendToDisplay('-')">-</button>
+
+            <button class="btn operator" onclick="appendToDisplay('0')">0</button>
+            <button class="btn operator" onclick="appendToDisplay('.')">.</button>
+            <button class="btn clear" onclick="clearDisplay()">C</button>
+            <button class="btn operation" onclick="appendToDisplay('+')">+</button>
+
+            <button class="btn equals" onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
