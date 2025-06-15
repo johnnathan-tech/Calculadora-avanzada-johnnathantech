@@ -1,4 +1,4 @@
-# 🧮 Calculadora Básica johnnathantech
+# 🧮 Calculadora Básica johnnathan-tech
 
 ![Calculadora Preview](assets/calculator-preview.png) *Interfaz limpia y funcional*
 
